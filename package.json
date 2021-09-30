@@ -7,11 +7,18 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@craco/craco": "^6.3.0",
+    "firebase": "^9.1.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router": "^5.2.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.16",
     "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
     "vite": "^2.6.0"
   }
 }
