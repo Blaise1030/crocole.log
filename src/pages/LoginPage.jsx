@@ -2,7 +2,6 @@ import React, {useContext, useEffect} from "react";
 import {FcGoogle} from "react-icons/fc/";
 import {useHistory} from "react-router";
 import {UserContext} from "../context/Authentication";
-import gif from "../assets/login.gif";
 
 const LoginPage = () => {
   const {signIn, signInState} = useContext(UserContext);
@@ -17,10 +16,7 @@ const LoginPage = () => {
 
   return (
     <div className="h-full w-full">
-      <div
-        className="h-full flex items-center justify-center  bg-cover bg-center bg-black"
-        style={{backgroundImage: `url(${gif})`}}
-      >
+      <div className="h-full flex items-center justify-center  bg-cover bg-center bg-black">
         <div className="max-w-md justify-center align-center w-full space-y-8">
           <div>
             <img
