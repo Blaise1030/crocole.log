@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useContext} from "react";
 import {getAllLogs} from "../api";
 import {UserContext} from "../context/Authentication";
-// import gif from "../assets/background.gif";
+import gif from "../assets/background.gif";
 import {useHistory} from "react-router-dom";
 import {LoopCircleLoading} from "react-loadingg";
 
@@ -30,7 +30,7 @@ const LogsPage = () => {
         style={{
           objectFit: "contain",
           backgroundSize: "100% 100%",
-          // backgroundImage: `url(${gif})`,
+          backgroundImage: `url(${gif})`,
         }}
       >
         <img
