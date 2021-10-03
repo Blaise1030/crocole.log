@@ -26,10 +26,11 @@ const LogsPage = () => {
     <div className="h-full w-full ">
       <div
         className="h-screen w-screen select-none bg-no-repeat pt-10 bg-black"
-        style={{
+    style={{
           objectFit: "contain",
-          backgroundSize: "100% 100%"
-        }}
+          backgroundSize: "100% 100%",
+          backgroundImage: `url('https://cdn.discordapp.com/attachments/867684486802964480/894241323920547850/background_Made_with_Clipchamp.gif')`,
+        }}       
       >
         <img
           className="mx-auto h-12 w-auto"
