@@ -16,7 +16,13 @@ const LoginPage = () => {
 
   return (
     <div className="h-full w-full">
-      <div className="h-full flex items-center justify-center  bg-cover bg-center bg-black">
+      <div className="h-full flex items-center justify-center  bg-cover bg-center bg-black"
+    style={{
+          objectFit: "contain",
+          backgroundSize: "100% 100%",
+          backgroundImage: `url('https://cdn.discordapp.com/attachments/867684486802964480/894241323920547850/background_Made_with_Clipchamp.gif')`,
+        }}
+    >
         <div className="max-w-md justify-center align-center w-full space-y-8">
           <div>
             <img
